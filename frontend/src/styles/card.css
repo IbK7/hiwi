@@ -1,0 +1,99 @@
+.card-wrapper {
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    /* max-width: 25vw; */
+    background-color: white;
+}
+
+
+.dp-and-details {
+    margin: 0.75rem 1rem;
+    padding: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dp {
+    margin-right: 0.5rem;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+}
+
+.skills-interests {
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+.skills-interests p {
+    line-height: 0;
+}
+
+.skills {
+    flex: 1;   
+}
+
+.skills-interests li {
+    list-style-type: disc;
+    list-style-position: inside;
+    text-indent: -1.45rem;
+    padding-left: 1.45rem;
+}
+.skills-interests li span {
+    position: relative;
+    left: -10px;
+}
+
+
+.interests {
+    flex: 1
+}
+.row {
+    margin: 1rem 0;
+    padding: 0 0.5rem;
+}
+
+
+.border-bottom{
+    border-bottom: 1px solid black;
+}
+
+.row-item {
+    border-radius: 25%;
+    margin: 0 0.25rem;
+    padding: 0.25rem;
+    max-width: 150px;
+}
+
+.button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Gill Sans', sans-serif;
+    cursor: pointer;
+}
+
+.add-color {
+    background-color: #64bc7f;
+}
+
+.remove-color {
+    background-color: #bf4646;
+}
